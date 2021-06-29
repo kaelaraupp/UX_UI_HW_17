@@ -25,43 +25,76 @@ body{
 
 }
 
-.HomeHeader {
+h1.HomeHeader {
     font-family: Montserrat;
     font-weight: bolder;
-    font-size: 36px;
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 p {
     font-family: Montserrat;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 25px;
+    margin-bottom: 0px;
 }
 
 section {
-    padding-left: 20px;
+    padding-left: 0px;
     margin-bottom: 0px;
     margin-top: 0px;
-    max-height: 470px;
+}
+
+div.LeftTxt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+div.CenteredLeftAlignedText {
+    display: inline-block;
+    text-align: left;
+    max-width: 450px;
 }
 
 .HomeRow {
     display:flex;
+    max-height: 470px;
 }
 
 .HomeColumn {
     flex: 50%;
+    min-height: 100%;
 }
+
 .HomeProject {
-    background: lightgrey;
     padding-top: 20px;
-    padding-bottom: 20px;
+}
+
+section.HomeProject {
+    height: 700px;
+    background-color: lightgrey;
 }
 
 .ImgColumn {
     overflow: hidden;
+    min-width: 50%;
 }
 
 img {
     max-width: 100%;
     max-height: 100%;
+    min-height: 100%
+}
+
+button {
+    border-radius: 2em;
+    margin-top: 40px;
+    padding: 15px;
+    font-family: Montserrat;
+    font-weight: 500;
+    background: rgb(255,195,224);
+    background: linear-gradient(90deg, rgba(255,195,224,1) 0%, rgba(255,121,177,1) 100%);
 }
