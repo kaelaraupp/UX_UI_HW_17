@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body{
     margin: 0px;
 }
@@ -7,7 +9,8 @@ body{
     background: #2b2b2c;
     margin: 0 0 0 0;
     padding: 0;
-    align-items: left;
+    align-items: center;
+    display: flex;
 }
 
 #navbar > li {
@@ -21,8 +24,26 @@ body{
 }
 
 #navbar > li:hover {
-    background: #F0799F
+    color: #ffaacb
 
+}
+
+
+.logo {
+    font-family: Pacifico, cursive;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 15px;
+    font-size: 27px;
+    color: #FFFFFF;
+    display: block;
+}
+
+li.logoList {
+    margin: 0px;
+    padding: 0px;
 }
 
 h1.HomeHeader {
@@ -31,6 +52,7 @@ h1.HomeHeader {
     font-size: 50px;
     margin-bottom: 0px;
     margin-top: 0px;
+    color: #000000
 }
 
 p {
@@ -70,12 +92,18 @@ div.CenteredLeftAlignedText {
 }
 
 .HomeProject {
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 section.HomeProject {
-    height: 700px;
-    background-color: rgb(211, 211, 211);
+    height: 500px;
+    background-color: rgb(224, 224, 224);
+}
+
+.FeatureProj {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
 }
 
 .ImgColumn {
@@ -95,6 +123,31 @@ button {
     padding: 15px;
     font-family: Montserrat;
     font-weight: 500;
-    background: rgb(255,195,224);
-    background: linear-gradient(90deg, rgba(255,195,224,1) 0%, rgba(255,121,177,1) 100%);
+    background: #3B36A6;
+    border: none;
+    font-size: 13px;
+    color: white;
+}
+
+footer {
+    background: #2b2b2c;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer > li {
+    display: inline-block;
+    font-family: Montserrat;
+    color: white;
+    padding: 20px;
+}
+
+.footerHeading{
+    font-family: Montserrat;
+    font-size: 24px;
+    color: white;
+}
+
+ul.footer {
+    margin: 0px;
 }
