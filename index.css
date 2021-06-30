@@ -12,7 +12,7 @@ body{
 
 #navbar > li {
     display: inline-block;
-    padding-left: 20px;
+    padding-left: 15px;
     padding-top: 20px;
     padding-right: 15px;
     padding-bottom: 20px;
@@ -20,8 +20,8 @@ body{
     font-family: Montserrat;
 }
 
-#navbar > li:hover{
-    background:#f04089
+#navbar > li:hover {
+    background: #F0799F
 
 }
 
@@ -75,7 +75,7 @@ div.CenteredLeftAlignedText {
 
 section.HomeProject {
     height: 700px;
-    background-color: lightgrey;
+    background-color: rgb(211, 211, 211);
 }
 
 .ImgColumn {
